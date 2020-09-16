@@ -41,7 +41,7 @@ hero:
   hero-title: Stanford <br> Effective <br> Altruism
 
 social:
-- {icon: "ti-facebook", link: "#"}
+- {icon: "ti-facebook", link: "https://www.facebook.com/StanfordEffectiveAltruism"}
 - {icon: "ti-instagram", link: "#"}
 - {icon: "ti-dribbble", link: "#"}
 - {icon: "ti-twitter", link: "#"}
