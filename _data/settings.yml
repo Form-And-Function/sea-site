@@ -1,11 +1,11 @@
 #-------------------------------
 # General Site Settings
 
-title: Kross
+title: SEA
 logo: 
 author: themefisher
 description: this is meta description
-email: steve.fruits@email.com
+email: kuhanj@stanford.edu
 phone: +880 2544 658 256
 address: 125/A, CA Commercial Area, California, USA
 copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
@@ -38,7 +38,7 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Hi! I’m <br> Christoher <br> UX designer
+  hero-title: Stanford <br> Effective <br> Altruism
 
 social:
 - {icon: "ti-facebook", link: "#"}
@@ -52,7 +52,7 @@ social:
 
 # About Section
 blurb:
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  'Effective Altruism is a growing social movement based on the idea that good intentions alone, while admirable, are not enough to have an impact. Instead, we are committed to combining compassion with reasoning and evidence so that our choices do the most good possible. With this broad approach, we tackle some of the most challenging questions of our era: what global problems should we prioritize, what strategies have the best chances of solving them, and how can we best use our careers, donations, resources and lifestyles to contribute to these?'
 
 blurb-btn-link: '/about'
 blurb-btn-name: know more
