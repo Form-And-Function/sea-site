@@ -3,7 +3,7 @@
 
 title: SEA
 logo: 
-author: themefisher
+author: Sydney Von Arx
 description: this is meta description
 email: kuhanj@stanford.edu
 phone: +880 2544 658 256
@@ -55,7 +55,7 @@ blurb:
   'Effective Altruism is a growing social movement based on the idea that good intentions alone, while admirable, are not enough to have an impact. Instead, we are committed to combining compassion with reasoning and evidence so that our choices do the most good possible. With this broad approach, we tackle some of the most challenging questions of our era: what global problems should we prioritize, what strategies have the best chances of solving them, and how can we best use our careers, donations, resources and lifestyles to contribute to these?'
 
 blurb-btn-link: '/about'
-blurb-btn-name: know more
+blurb-btn-name: learn more
 
 
 # About Page
@@ -77,17 +77,61 @@ work-process:
 
 # My Team Section
 team:
-  - title : "Jack Schenziwe"
+  - title : "Kuhan Jeyapragasan"
     image : "assets/images/team/member-1.png"
-    designation : "Project Manager"
+    designation : "Co-president"
     
-  - title : "Julias Carlie"
+  - title : "Felipe Calero Forero"
     image : "assets/images/team/member-2.png"
-    designation : "Web Developer"
+    designation : "Co-president"
     
-  - title : "John Doe"
+  - title : "Mauricio Baker"
     image : "assets/images/team/member-3.png"
-    designation : "Designer"
+    designation : "VP of Community"
+  
+  - title : "Jack Ryan"
+    image : "assets/images/team/member-3.png"
+    designation : "VP of Education"
+
+  - title : "Sydney Von Arx"
+    image : "assets/images/team/member-3.png"
+    designation : "VP Projects"
+  
+  - title : "Harshu Musunuri"
+    image : "assets/images/team/member-3.png"
+    designation : "Partnerships Coordinator"
+
+  - title : "Lucas Sato"
+    image : "assets/images/team/member-3.png"
+    designation : "AI Safety Group Co-President"
+
+  - title : "Irena Gao"
+    image : "assets/images/team/member-3.png"
+    designation : "AI Safety Group Co-President"
+
+  - title : "Jassi Pannu"
+    image : "assets/images/team/member-3.png"
+    designation : "Med School Liaison"
+  
+  - title : "Nathan Calvin"
+    image : "assets/images/team/member-3.png"
+    designation : "Law School Liaison"
+    
+  - title : "Hannah Sieber"
+    image : "assets/images/team/member-3.png"
+    designation : "Business School Liaison"    
+  
+  - title : "Emma Williamson"
+    image : "assets/images/team/member-3.png"
+    designation : "One for the World Co-President"
+
+  - title : "Jiahui Chen"
+    image : "assets/images/team/member-3.png"
+    designation : "One For the World Co-President"
+
+  - title : "Keona Blanks"
+    image : "assets/images/team/member-3.png"
+    designation : "One For the World Social Chair"
 
 
 #-------------------------------
