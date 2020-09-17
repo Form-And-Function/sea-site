@@ -170,21 +170,38 @@ portfolio-home-items:
 
 
 # Portfolio Page
-portfolio-label:
-- {
-    title : "UI/UX Design",
-    type : "design"
-  }
-- {
-    title : "BRANDING",
-    type : "branding"
-  }
-- {
-    title : "ILLUSTRATION",
-    type : "illustration"
-  }
+project-label:
+- title: Ongoing
+  type: ongoing
+- title: Previous
+  type: previous
+- title: "Starting Soon"
+  type: soon
 
-portfolio-items:
+project-items:
+  - name: One for the World at Stanford
+    url: https://onefortheworld.su.domains
+    image: assets/images/projects/onefortheworld.png
+    portfolio-type: [type: ongoing]
+  - name: Pandemic modelling
+    url: "#involved"
+    image: assets/images/projects/pandemic-modelling.jpg
+    portfolio-type: [type: soon]
+  - name: Alternative meat
+    url: "#involved"
+    image: assets/images/projects/alternative-meat.jpg
+    credit: Alternative meat image <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC BY-SA 4.0</a>, Dllu
+    portfolio-type: [type: soon]
+  - name: Bioengineering animals to reduce suffering
+    url: "#involved"
+    image: assets/images/projects/bioengineering.jpg
+    credit: Bioengineering image <a href="https://creativecommons.org/licenses/by-sa/2.0/deed.en">CC BY-SA 2.0</a>, astro_matt
+    portfolio-type: [type: soon]
+  - name: Building models for the AI Safety Gym
+    url: "#involved"
+    image: assets/images/projects/ai-safety.jpg
+    portfolio-type: [type: soon]
+
   - image : "assets/images/portfolio/item-1.png"
     url: "#"
     portfolio-type:
