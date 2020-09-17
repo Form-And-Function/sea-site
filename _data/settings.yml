@@ -176,81 +176,64 @@ project-label:
 - title: Previous
   type: previous
 - title: "Starting Soon"
-  type: soon
+  type: coming soon
 
 project-items:
   - name: One for the World at Stanford
     url: https://onefortheworld.su.domains
     image: assets/images/projects/onefortheworld.png
-    portfolio-type: [type: ongoing]
+    project-type: [type: ongoing]
+  - name: Stanford Existential Risks Initiative
+    url: https://cisac.fsi.stanford.edu/stanford-existential-risks-initiative
+    image: assets/images/projects/stanford-eri.png
+    project-type: [type: ongoing]
+  - name: Collaboration with People for Animal Welfare
+    url: https://onefortheworld.su.domains
+    image: assets/images/projects/people-for-animal-welfare.png
+    project-type: [type: ongoing]
+  - name: Competing in the Genetic Engineering Attribution Challenge
+    url: https://altlabs.tech/geac/
+    image: assets/images/projects/genetic-engineering-attribution-challenge.png
+    project-type: [type: ongoing]
+  - name: Uncommon Sense Rationality
+    url: https://bitbybitcoding.org/uncommonsense.html
+    image: assets/images/projects/bxblogo.png
+    project-type: [type: ongoing]
+  - name: CSET Foretell Technology Forecasting Project
+    image: assets/images/projects/metaculus.png
+    project-type: [type: ongoing]
+
   - name: Pandemic modelling
-    url: "#involved"
     image: assets/images/projects/pandemic-modelling.jpg
-    portfolio-type: [type: soon]
+    project-type: [type: coming soon]
   - name: Alternative meat
-    url: "#involved"
     image: assets/images/projects/alternative-meat.jpg
     credit: Alternative meat image <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC BY-SA 4.0</a>, Dllu
-    portfolio-type: [type: soon]
+    project-type: [type: coming soon]
   - name: Bioengineering animals to reduce suffering
-    url: "#involved"
     image: assets/images/projects/bioengineering.jpg
     credit: Bioengineering image <a href="https://creativecommons.org/licenses/by-sa/2.0/deed.en">CC BY-SA 2.0</a>, astro_matt
-    portfolio-type: [type: soon]
+    project-type: [type: coming soon]
   - name: Building models for the AI Safety Gym
-    url: "#involved"
     image: assets/images/projects/ai-safety.jpg
-    portfolio-type: [type: soon]
+    project-type: [type: coming soon]
 
-  - image : "assets/images/portfolio/item-1.png"
-    url: "#"
-    portfolio-type:
-     - type: "design"
-     - type: "illustration"
-      
-  - image : "assets/images/portfolio/item-2.png"
-    url: "#"
-    portfolio-type:
-      - type: "branding"
-      
-  - image : "assets/images/portfolio/item-3.png"
-    url: "#"
-    portfolio-type:
-      - type: "illustration"
-      
-  - image : "assets/images/portfolio/item-6.png"
-    url: "#"
-    portfolio-type:
-      - type: "design"
-      - type: "branding"
-      
-  - image : "assets/images/portfolio/item-8.png"
-    url: "#"
-    portfolio-type:
-      - type: "illustration"
-      
-  - image : "assets/images/portfolio/item-5.png"
-    url: "#"
-    portfolio-type:
-      - type: "design"
-      
-  - image : "assets/images/portfolio/item-1.png"
-    url: "#"
-    portfolio-type:
-      - type: "branding"
-      
-  - image : "assets/images/portfolio/item-3.png"
-    url: "#"
-    portfolio-type:
-      - type: "design"
-      - type: "illustration"
-      - type: "branding"
-      
-  - image : "assets/images/portfolio/item-7.png"
-    url: "#"
-    portfolio-type:
-      - type: "illustration"
-
+  - name: CHAI European AI Whitepaper Review Collaboration
+    image: assets/images/projects/ai-safety.jpg
+    project-type: [type: previous]
+  - name: SERI Summer Research Internship Program
+    image: assets/images/projects/stanford-eri.png
+    project-type: [type: previous]
+  - name: "Student-run Course: Effective Altruism"
+    image: assets/images/projects/effective-altruism.png
+    project-type: [type: previous]
+  - name: AI Safety Reading Group
+    image: assets/images/projects/ai-safety.jpg
+    project-type: [type: previous]
+  - name: Veritas Forum Collaboration - Designing Our Lives When Strangers are Drowning
+    image: assets/images/projects/veritas.jpg
+    credit: Veritas at MIT image <a href="https://creativecommons.org/licenses/by-sa/2.0/deed.en">CC-BY-SA 2.0</a>, The Veritas Forum.
+    project-type: [type: previous]
 
 #-------------------------------
 # Testimonials Section

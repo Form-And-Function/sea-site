@@ -62,13 +62,9 @@
 }
 
 .project-description {
-  position: absolute;
-  display: inline-block;
-  z-index: 1;
-  border-radius: 4px;
-  background: rgba(0, 0, 0, 0.6);
+  margin: 0;
+  background: black;
   color: white;
   padding: 0 8px;
   font-weight: bold;
-  font-size: 1.5em;
 }
