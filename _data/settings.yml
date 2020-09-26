@@ -4,11 +4,17 @@
 title: SEA
 logo: 
 author: Sydney Von Arx
-description: this is meta description
+description: Stanford Effective Altruism. How can we do as much good as possible with limited resources?
 email: kuhanj@stanford.edu
-phone: +880 2544 658 256
-address: 125/A, CA Commercial Area, California, USA
-copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
+socials: #name is used for font-awesome icons. fa- is prepended automatically.
+  - {icon: facebook, url: https://www.facebook.com/StanfordEffectiveAltruism/}
+  - {icon: instagram, url: https://www.instagram.com/ea_stanford/}
+  - {icon: slack, url: https://stanford-ea.slack.com/}
+
+#phone: +880 2544 658 256
+#address: 125/A, CA Commercial Area, California, USA
+copyright: Copyright &copy; 2020
+mailinglist: https://mailman.stanford.edu/mailman/suoptions/effective-altruism/
 
 menu:
 - {name: About, link: '/about/'}
@@ -38,14 +44,10 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Stanford <br> Effective <br> Altruism
-
-social:
-- {icon: "ti-facebook", link: "https://www.facebook.com/StanfordEffectiveAltruism"}
-- {icon: "ti-instagram", link: "#"}
-- {icon: "ti-dribbble", link: "#"}
-- {icon: "ti-twitter", link: "#"}
-
+  hero-title: Stanford Effective Altruism
+  info-buttons:
+    - text: Come to our info session!
+      link: https://fb.me/e/1JE6zGJWk
 
 #-------------------------------
 # About (Section and Page)
@@ -61,19 +63,20 @@ blurb-btn-name: learn more
 # About Page
 
 # Work Process Section
-work-process:
-  - title : "Research and Plan"
-    icon : "assets/images/icons/plan.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    
-  - title : "Design and Develop"
-    icon : "assets/images/icons/design.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    
-  - title : "Deliver"
-    icon : "assets/images/icons/print.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+instrumental-goals-blurb: "Doing as much good as possible is a pretty big task. So, we’ve broken it down into several smaller steps we’re taking to get there!"
 
+work-process:    
+  - title : "Effective Career Development"
+    icon : user-tie
+    content : 'Your career is your biggest opportunity to improve the world. We provide students with career planning and opportunities for internships, research, and more in effective career paths.'
+    
+  - title : "Research and Projects"
+    icon : flask
+    content : 'From extreme climate change to AI safety, there are plenty of new cause areas ripe with open questions and problems to solve. Check out our <a href="/projects">past and current projects</a>.'
+
+  - title : "Outreach"
+    icon : comments
+    content : 'We are growing the EA movement by helping more students and faculty develop a lasting interest in impact-oriented work through our <a href="\#programs">fellowships</a>, speaker events, and discussions'
 
 # My Team Section
 team:
@@ -135,18 +138,18 @@ team:
 
 
 #-------------------------------
-# Skills Section
+# Fellowships and Reading Groups
 
 skills-title: Skills
 skills:
-- {name: Web Design, color: '#fdb157', value: '90%'}
+- {name: Arete Fellowship, color: '#fdb157', value: '90%'}
 - {name: Logo Design, color: '#9473e6', value: '60%'}
 - {name: After Effects, color: '#bdecf6', value: '80%'}
 - {name: Web App, color: '#ffbcaa', value: '70%'}
 
 
 #-------------------------------
-# Exprerience Section
+# Experience Section
 
 experience-title: Experience
 experience:
@@ -169,24 +172,27 @@ education:
 #-------------------------------
 # Services Section
 
-services-title: Services
+services-title: Fellowships & Reading Groups
 services:
 - {
-    name: UI Design,
-    icon: ti-palette,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    name: Advanced Fellowship,
+    icon: heart,
+    description: 'Learn the fundamentals of Effective Altruism. Discuss philosophy, cause areas, careers, and more.',
+    link: https://docs.google.com/forms/d/e/1FAIpQLSfqQ4Vie1lj_cCLsaBLe_zm_AuF6ZA9nMgI0Ao4DpV2gIls9Q/viewform,
     active: # Add true to select section
   }
 - {
-    name: UX Design,
-    icon: ti-vector,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    active: true # Add true to select section
+    name: Advanced Fellowship,
+    icon: lightbulb,
+    description: 'For those who have completed the Arete Fellowship. Dive deep into discussion of cause prioritization, clear up confusions, and find all new things to be confused about!',
+    link: ,
+    active: true
   }
 - {
-    name: Interaction Design,
-    icon: ti-panel,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    name: AI Safety Reading Group,
+    icon: robot,
+    description: 'An introduction to AI Safety. Read about and discuss the dangerous of both narrow and general artificial intelligence and ways we can make it safer.',
+    link: ,
     active: # Add true to select section
   }
 
@@ -259,11 +265,11 @@ project-items:
     credit: Bioengineering image <a href="https://creativecommons.org/licenses/by-sa/2.0/deed.en">CC BY-SA 2.0</a>, astro_matt
     project-type: [type: coming soon]
   - name: Building models for the AI Safety Gym
-    image: assets/images/projects/ai-safety.jpg
+    image: assets/images/projects/safety-gym-cover.png
     project-type: [type: coming soon]
 
   - name: CHAI European AI Whitepaper Review Collaboration
-    image: assets/images/projects/ai-safety.jpg
+    image: assets/images/projects/chai.jpg
     project-type: [type: previous]
   - name: SERI Summer Research Internship Program
     image: assets/images/projects/stanford-eri.png
@@ -300,7 +306,7 @@ testimonial-items:
 
 
 #-------------------------------
-# Client Slider Section
+# Speakers Section
 
 client-slider-items:
   - logo: "assets/images/clients-logo/client-logo-1.png"
@@ -336,5 +342,5 @@ client-slider-items:
 #-------------------------------
 # Contact Section
 
-contact-title: Contact Info
+contact-title: Get Involved!
 contact-email: steve.fruits@email.com
