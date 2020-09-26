@@ -7,9 +7,9 @@ author: Sydney Von Arx
 description: Stanford Effective Altruism. How can we do as much good as possible with limited resources?
 email: kuhanj@stanford.edu
 socials: #name is used for font-awesome icons. fa- is prepended automatically.
-  - {icon: facebook, url: https://www.facebook.com/StanfordEffectiveAltruism/}
-  - {icon: instagram, url: https://www.instagram.com/ea_stanford/}
-  - {icon: slack, url: https://stanford-ea.slack.com/}
+  - {icon: facebook, url: "https://www.facebook.com/StanfordEffectiveAltruism/"}
+  - {icon: instagram, url: "https://www.instagram.com/ea_stanford/"}
+  - {icon: slack, url: "https://stanford-ea.slack.com/"}
 
 #phone: +880 2544 658 256
 #address: 125/A, CA Commercial Area, California, USA
@@ -178,7 +178,7 @@ services:
     name: Advanced Fellowship,
     icon: heart,
     description: 'Learn the fundamentals of Effective Altruism. Discuss philosophy, cause areas, careers, and more.',
-    link: https://docs.google.com/forms/d/e/1FAIpQLSfqQ4Vie1lj_cCLsaBLe_zm_AuF6ZA9nMgI0Ao4DpV2gIls9Q/viewform,
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSfqQ4Vie1lj_cCLsaBLe_zm_AuF6ZA9nMgI0Ao4DpV2gIls9Q/viewform",
     active: # Add true to select section
   }
 - {
