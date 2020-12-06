@@ -62,7 +62,7 @@ blurb-btn-name: learn more
 
 # About Page
 
-# Work Process Section
+# Work ProceWork Process Section
 instrumental-goals-blurb: "Doing as much good as possible is a pretty big task. So, we’ve broken it down into several smaller steps we’re taking to get there!"
 
 work-process:    
@@ -81,59 +81,59 @@ work-process:
 # My Team Section
 team:
   - title : "Kuhan Jeyapragasan"
-    image : "assets/images/team/member-1.png"
+    image : "assets/images/team/kuhan.jpg"
     designation : "Co-president"
     
   - title : "Felipe Calero Forero"
-    image : "assets/images/team/member-2.png"
+    image : "assets/images/team/felipe.jpg"
     designation : "Co-president"
     
   - title : "Mauricio Baker"
-    image : "assets/images/team/member-3.png"
+    image : "assets/images/team/mauricio.jpg"
     designation : "VP of Community"
   
   - title : "Jack Ryan"
-    image : "assets/images/team/member-3.png"
+    image : "assets/images/team/jack.jpg"
     designation : "VP of Education"
 
   - title : "Sydney Von Arx"
-    image : "assets/images/team/member-3.png"
+    image : "assets/images/team/sydney.jpg"
     designation : "VP Projects"
   
   - title : "Harshu Musunuri"
-    image : "assets/images/team/member-3.png"
+    image : "assets/images/team/harshu.png"
     designation : "Partnerships Coordinator"
 
   - title : "Lucas Sato"
-    image : "assets/images/team/member-3.png"
+    image : "assets/images/team/lucas.jpg"
     designation : "AI Safety Group Co-President"
 
   - title : "Irena Gao"
-    image : "assets/images/team/member-3.png"
+    image : "assets/images/team/irena.jpg"
     designation : "AI Safety Group Co-President"
 
   - title : "Jassi Pannu"
-    image : "assets/images/team/member-3.png"
+    image : "assets/images/team/jassi.png"
     designation : "Med School Liaison"
   
   - title : "Nathan Calvin"
-    image : "assets/images/team/member-3.png"
+    image : "assets/images/team/nathan.jpg"
     designation : "Law School Liaison"
     
   - title : "Hannah Sieber"
-    image : "assets/images/team/member-3.png"
+    image : "assets/images/team/hannah.jpg"
     designation : "Business School Liaison"    
   
   - title : "Emma Williamson"
-    image : "assets/images/team/member-3.png"
+    image : "assets/images/team/emma.png"
     designation : "One for the World Co-President"
 
   - title : "Jiahui Chen"
-    image : "assets/images/team/member-3.png"
+    image : "assets/images/team/jiahui.jpg"
     designation : "One For the World Co-President"
 
   - title : "Keona Blanks"
-    image : "assets/images/team/member-3.png"
+    image : "assets/images/team/keona.jpg"
     designation : "One For the World Social Chair"
 
 
@@ -175,7 +175,7 @@ education:
 services-title: Fellowships & Reading Groups
 services:
 - {
-    name: Advanced Fellowship,
+    name: Arete Fellowship,
     icon: heart,
     description: 'Learn the fundamentals of Effective Altruism. Discuss philosophy, cause areas, careers, and more.',
     link: "https://docs.google.com/forms/d/e/1FAIpQLSfqQ4Vie1lj_cCLsaBLe_zm_AuF6ZA9nMgI0Ao4DpV2gIls9Q/viewform",

@@ -5,11 +5,13 @@
       <div class="col-lg-5 mx-auto">
         <h1 class="text-white font-tertiary">{{ site.data.settings.hero.hero-title }}</h1>
       </div>
-      <div class="col-lg-6 mx-auto my-auto">
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfqQ4Vie1lj_cCLsaBLe_zm_AuF6ZA9nMgI0Ao4DpV2gIls9Q/viewform"
-          class="btn btn-secondary w-100">Apply for our Arete Fellowship
-          <i class="fas fa-rocket"></i>
+      <div class="col-lg-5 mx-auto my-auto">
+        {% for button in site.data.settings.hero.info-buttons %}
+        <a href="{{ button.link }}"
+          class="btn btn-secondary w-100">
+          {{ button.text }}
         </a>
+        {% endfor %}
       </div>
     </div>
     {% include svgs/space.svg %}
@@ -45,7 +47,7 @@
   <!-- social icon -->
   <ul class="list-unstyled ml-5 mt-3 position-relative zindex-1">
     {% for social in site.data.settings.socials %}
-    <a href="{{social.url}}" class="fas fa-{{social.icon}}"></a>
+    <a href="{{social.url}}" class="fab fa-{{social.icon}}"></a>
     {% endfor %}
   </ul>
   <!-- /social icon -->
