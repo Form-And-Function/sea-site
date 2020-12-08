@@ -291,5 +291,8 @@ textarea.form-control{
 /* links */
 a {
   color: $secondary-color;
+  &:hover {
+    color: $primary-color;
+  }
 }
 /* /links */

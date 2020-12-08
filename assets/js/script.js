@@ -1,8 +1,6 @@
 (function ($) {
     'use strict';
 
-
-
     // Sticky Menu
     $(window).scroll(function () {
         if ($('.navigation').offset().top > 100) {
@@ -42,8 +40,31 @@
     });
 
     window.onload = function () {
+            /* ########################################### about parallax ############################################## */
 
+    let $asteroid = $("#asteroid");
+
+    if ($asteroid.length) {
+        $(document).scroll(() => {
+            var scrollTop = $(window).scrollTop();
+            var imgPosX = -scrollTop / 3 + 'px';
+            var imgPosY = scrollTop / 3 + 'px';
+            $asteroid[0].style.transform = 'translate(' + imgPosX + ', ' + imgPosY + ')';
+        });
+    }
+
+    /* ########################################### /about parallax ############################################## */
+
+
+        if (!$stars.length) return;
         var parallaxBox = document.getElementById('parallax');
+
+        let initMouse = [0, 0];
+
+        parallaxBox.onmouseenter = function (event) {
+            event = event || window.event;
+            initMouse = [event.clientX - parallaxBox.offsetLeft, event.clientY - parallaxBox.offsetTop];
+        }
 
         parallaxBox.onmousemove = function (event) {
             event = event || window.event;
@@ -54,7 +75,7 @@
                 mouseRepel(el, x, y);
             });
 
-            $("#galaxy path").each((i, el) => mouseParallax(el, x, y, i));
+            $("#galaxy path").each((i, el) => mouseParallax(el, x - initMouse[0], y - initMouse[1], i));
             /*  mouseParallax('l1', c1left, c1top, x, y, 5); */
             // mouseParallax('l2', c2left, c2top, x, y, 25);
             // mouseParallax('l3', c3left, c3top, x, y, 20);
@@ -68,9 +89,8 @@
     };
 
     function mouseParallax(el, mouseX, mouseY, phase) {
-        console.log(el);
         var //deltaX = mouseX,
-            deltaY = Math.sin(phase + mouseX/200) * 20;
+            deltaY = Math.sin(phase + (mouseX + mouseY) / 200) * 20;
         el.style.transform = `translate(${0}px, ${deltaY}px)`;
         //var parentObj = el.parentNode,
         //     [left, top] = $(el).data("home"),
