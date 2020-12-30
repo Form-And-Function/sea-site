@@ -1,0 +1,143 @@
+//credit to https://codepen.io/artyom-ivanov/pen/MoxENg
+#earthfire{
+  .back {
+    // background: linear-gradient(to top, #141e30, #243b55);
+    background: $primary-color;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .light {
+    width: 100%;
+    height: 100%;
+    animation: firelight 2s ease infinite;
+    background: radial-gradient(
+      ellipse at bottom,
+      transparentize($white, 0.85) 0%,
+      transparentize($primary-color, 1) 90%
+    );
+    position: absolute;
+    z-index:0;
+    left: 0;
+    bottom: 0;
+  }
+  @keyframes firelight {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.8;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .content {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    margin: 0 0 -30px -100px;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 100%;
+    .fire{    
+      filter: url(#goo);
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+    div.bottom {
+      position: absolute;
+      left: 50px;
+      bottom: 0;
+      width: 100px;
+      height: 30px;
+      background: $secondary-highlight;
+      border-radius: 30px;
+    }
+    figure {
+      position: absolute;
+      margin: 0 0 -15px;
+      left: calc(50% - 70px);
+      bottom: 0;
+      width: 70px;
+      height: 70px;
+      background: $secondary-highlight;
+      border-radius: 100%;
+      @for $i from 1 through 16 {
+        &:nth-child(#{$i}) {
+          animation: firecircle
+            1.2s
+            #{$i*0.14}s
+            cubic-bezier(0.5, 0.07, 0.64, 1)
+            infinite;
+          margin-left: random(70)+px;
+          margin-bottom: -#{15+random(25)}px;
+        }
+      }
+    }
+    .reverse div {
+      position: absolute;
+      margin: 0 0 -15px;
+      left: 0;
+      bottom: 0;
+      width: 70px;
+      height: 70px;
+      background: $primary-color;
+      border-radius: 100%;
+      @for $i from 1 through 4 {
+        &:nth-child(#{$i}) {
+          animation: firereverseleft
+            1.2s
+            #{$i*0.5}s
+            cubic-bezier(0.5, 0.07, 0.64, 1)
+            infinite;
+          margin-left: random(23)+px;
+          margin-bottom: -#{15+random(25)}px;
+        }
+      }
+      @for $i from 1 through 4 {
+        &:nth-child(#{$i+4}) {
+          left:120px;
+          animation: firereverseright
+            1.2s
+            #{$i*0.5}s
+            cubic-bezier(0.5, 0.07, 0.64, 1)
+            infinite;
+          margin-left: random(23)+px;
+          margin-bottom: -#{15+random(25)}px;
+        }
+      }
+    }
+  }
+  @keyframes firecircle {
+    0% {
+      transform: translateY(0) scale(1);
+      background: $secondary-highlight;
+    }
+    100% {
+      transform: translateY(-175px) scale(0);
+      background: $primary-color;
+    }
+  }
+  @keyframes firereverseleft {
+    0% {
+      transform: translateY(0) translateX(0) scale(0.3);
+    }
+    100% {
+      transform: translateY(-175px) translateX(50px) scale(1);
+    }
+  }
+  @keyframes firereverseright {
+    0% {
+      transform: translateY(0) translateX(0) scale(0.3);
+    }
+    100% {
+      transform: translateY(-175px) translateX(-50px) scale(1);
+    }
+  }
+  
+}

@@ -46,8 +46,8 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 hero:
   hero-title: Stanford Effective Altruism
   info-buttons:
-    - text: Come to our info session!
-      link: https://fb.me/e/1JE6zGJWk
+    - text: Apply to out Arete fellowship!
+      link: https://docs.google.com/forms/d/e/1FAIpQLSfqQ4Vie1lj_cCLsaBLe_zm_AuF6ZA9nMgI0Ao4DpV2gIls9Q/viewform?usp=sf_link
 
 #-------------------------------
 # About (Section and Page)
