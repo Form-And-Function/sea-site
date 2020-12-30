@@ -263,6 +263,7 @@ textarea.form-control{
 
 /* card */
 .card{
+  height: 100%;
   border: 0;
   &-header{
     border: 0;
@@ -272,3 +273,26 @@ textarea.form-control{
   }
 }
 /* /card */
+
+/* icons */
+.footer-section{
+  .fab {
+    color: $white;
+    font-size: 40px;
+    padding: 10px 20px 0 0;
+  }
+  
+  .fab:hover {
+      opacity: 0.7;
+  }
+}
+/* /icons */
+
+/* links */
+a {
+  color: $secondary-color;
+  &:hover {
+    color: $primary-color;
+  }
+}
+/* /links */

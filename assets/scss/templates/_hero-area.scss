@@ -1,68 +1,39 @@
 .hero-area {
+  box-sizing: border-box;
   padding: 300px 0 200px;
+  height: 100vh;
+  background: linear-gradient(60deg, $primary-color, $off-black);
+  //z-index: 1;
+  @include desktop {
+    height: calc(100vh - 131px);
+  }
   position: relative;
   @include tablet {
     padding: 250px 0 150px;
     overflow: hidden;
   }
-  h1{
+
+  h1 {
     position: relative;
     z-index: 2;
   }
-}
-
-.layer {
-  position: absolute;
-  z-index: 1;
-}
-
-#l1 {
-  bottom: 0;
-  left: 0;
-}
-
-#l2 {
-  top: 190px;
-  left: -250px;
-}
-
-#l3 {
-  top: 200px;
-  left: 40%;
-}
-
-#l4 {
-  top: 200px;
-  right: 40%;
-}
-
-#l5 {
-  top: 100px;
-  right: -150px;
-}
-
-#l6 {
-  bottom: -20px;
-  left: 10%;
-}
-
-#l7 {
-  bottom: 100px;
-  left: 20%;
-}
-
-#l8 {
-  bottom: 160px;
-  right: 45%;
-}
-
-#l9 {
-  bottom: 100px;
-  right: -10px;
-}
-
-.layer-bg {
-  position: absolute;
-  bottom: 0;
-  left: 0;
+  svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    @include tablet {
+      width: 200vw;
+      left: -50%;
+    }
+    @include mobile {
+      width: 300vh;
+      left: -200%;
+    }
+  }
+  .btn {
+    background: transparentize($primary-color, 0.5);
+    border: 2px solid $white;
+  }
 }

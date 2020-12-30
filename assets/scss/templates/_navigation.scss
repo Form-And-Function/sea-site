@@ -9,6 +9,7 @@
     }
   }
   @include desktop {
+    position: sticky;
     padding: 20px;
     background: $primary-color;
   }
@@ -27,6 +28,6 @@
   }
 }
 
-.navbar-dark .navbar-nav .nav-link{
-  color: $white;
-}
+// .navbar .navbar-nav .nav-link{
+//   color: $white;
+// }

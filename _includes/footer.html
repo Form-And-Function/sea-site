@@ -7,13 +7,18 @@
           <h5 class="text-light">Email</h5>
           <p class="text-white paragraph-lg font-secondary">{{ site.data.settings.email }}</p>
         </div>
-        <div class="col-md-4">
-          <h5 class="text-light">Phone</h5>
-          <p class="text-white paragraph-lg font-secondary">{{ site.data.settings.phone }}</p>
+        <div class="col-md-4 mb-4">
+          <h5 class="text-light">Follow us!</h5>
+          <div class="socials">
+            {% for social in site.data.settings.socials %}
+            <a href="{{social.url}}" class="fab fa-{{social.icon}}" ></a>
+            {% endfor %}
+          </div>
         </div>
-        <div class="col-md-4">
-          <h5 class="text-light">Address</h5>
-          <p class="text-white paragraph-lg font-secondary">{{ site.data.settings.address }}</p>
+        <div class="col-md-4 text-center">
+          <a href="{{ site.data.settings.mailinglist }}" class="btn btn-primary">
+            <h5 class="text-light"></h5>Join our mailing list!</h5>
+          </a>
         </div>
       </div>
     </div>

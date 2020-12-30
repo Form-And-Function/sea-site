@@ -63,8 +63,13 @@
 
 .project-description {
   margin: 0;
-  background: black;
+  background: #000000cc;
+  z-index: 1;
+  position: absolute;
   color: white;
-  padding: 0 8px;
+  padding: 8px;
   font-weight: bold;
+  text-align: center;
+  box-sizing: border-box;
+  width: 100%;
 }

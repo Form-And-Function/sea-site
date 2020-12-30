@@ -3,6 +3,7 @@ css:
   - "/assets/plugins/bootstrap/bootstrap.min.css"
   - "/assets/plugins/themify-icons/themify-icons.css"
   - "/assets/plugins/slick/slick.css"
+  - "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
 
 
 ################ JS Plugins ######################
