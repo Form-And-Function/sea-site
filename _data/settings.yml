@@ -1,10 +1,12 @@
 #-------------------------------
 # General Site Settings
 
+
 title: SEA
 logo: 
 author: Sydney Von Arx
 description: Stanford Effective Altruism. How can we do as much good as possible with limited resources?
+
 email: kuhanj@stanford.edu
 socials: #name is used for font-awesome icons. fa- is prepended automatically.
   - {icon: facebook, url: "https://www.facebook.com/StanfordEffectiveAltruism/"}
