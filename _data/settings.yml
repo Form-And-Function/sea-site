@@ -1,0 +1,348 @@
+#-------------------------------
+# General Site Settings
+
+
+title: SEA
+logo: 
+author: Sydney Von Arx
+description: Stanford Effective Altruism. How can we do as much good as possible with limited resources?
+
+email: kuhanj@stanford.edu
+socials: #name is used for font-awesome icons. fa- is prepended automatically.
+  - {icon: facebook, url: "https://www.facebook.com/StanfordEffectiveAltruism/"}
+  - {icon: instagram, url: "https://www.instagram.com/ea_stanford/"}
+  - {icon: slack, url: "https://stanford-ea.slack.com/"}
+
+#phone: +880 2544 658 256
+#address: 125/A, CA Commercial Area, California, USA
+copyright: Copyright &copy; 2020
+mailinglist: https://mailman.stanford.edu/mailman/suoptions/effective-altruism/
+
+menu:
+- {name: About, link: '/about/'}
+- {name: Updates, link: '/updates/'}
+- {name: Projects, link: '/projects/'}
+- {name: Contact, link: '/contact/'}
+
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+google-analytics: # UA-XXXXXX-X
+
+
+#-------------------------------
+# Comment Section (Disqus)
+
+disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
+
+
+#-------------------------------
+# Hero Section
+
+hero:
+  hero-title: Stanford Effective Altruism
+  info-buttons:
+    - text: Apply to out Arete fellowship!
+      link: https://docs.google.com/forms/d/e/1FAIpQLSfqQ4Vie1lj_cCLsaBLe_zm_AuF6ZA9nMgI0Ao4DpV2gIls9Q/viewform?usp=sf_link
+
+#-------------------------------
+# About (Section and Page)
+
+# About Section
+blurb:
+  'Effective Altruism is a growing social movement based on the idea that good intentions alone, while admirable, are not enough to have an impact. Instead, we are committed to combining compassion with reasoning and evidence so that our choices do the most good possible. With this broad approach, we tackle some of the most challenging questions of our era: what global problems should we prioritize, what strategies have the best chances of solving them, and how can we best use our careers, donations, resources and lifestyles to contribute to these?'
+
+blurb-btn-link: '/about'
+blurb-btn-name: learn more
+
+
+# About Page
+
+# Work ProceWork Process Section
+instrumental-goals-blurb: "Doing as much good as possible is a pretty big task. So, we’ve broken it down into several smaller steps we’re taking to get there!"
+
+work-process:    
+  - title : "Effective Career Development"
+    icon : user-tie
+    content : 'Your career is your biggest opportunity to improve the world. We provide students with career planning and opportunities for internships, research, and more in effective career paths.'
+    
+  - title : "Research and Projects"
+    icon : flask
+    content : 'From extreme climate change to AI safety, there are plenty of new cause areas ripe with open questions and problems to solve. Check out our <a href="/projects">past and current projects</a>.'
+
+  - title : "Outreach"
+    icon : comments
+    content : 'We are growing the EA movement by helping more students and faculty develop a lasting interest in impact-oriented work through our <a href="\#programs">fellowships</a>, speaker events, and discussions'
+
+# My Team Section
+team:
+  - title : "Kuhan Jeyapragasan"
+    image : "assets/images/team/kuhan.jpg"
+    designation : "Co-president"
+    
+  - title : "Felipe Calero Forero"
+    image : "assets/images/team/felipe.jpg"
+    designation : "Co-president"
+    
+  - title : "Mauricio Baker"
+    image : "assets/images/team/mauricio.jpg"
+    designation : "VP of Community"
+  
+  - title : "Jack Ryan"
+    image : "assets/images/team/jack.jpg"
+    designation : "VP of Education"
+
+  - title : "Sydney Von Arx"
+    image : "assets/images/team/sydney.jpg"
+    designation : "VP Projects"
+  
+  - title : "Harshu Musunuri"
+    image : "assets/images/team/harshu.png"
+    designation : "Partnerships Coordinator"
+
+  - title : "Lucas Sato"
+    image : "assets/images/team/lucas.jpg"
+    designation : "AI Safety Group Co-President"
+
+  - title : "Irena Gao"
+    image : "assets/images/team/irena.jpg"
+    designation : "AI Safety Group Co-President"
+
+  - title : "Jassi Pannu"
+    image : "assets/images/team/jassi.png"
+    designation : "Med School Liaison"
+  
+  - title : "Nathan Calvin"
+    image : "assets/images/team/nathan.jpg"
+    designation : "Law School Liaison"
+    
+  - title : "Hannah Sieber"
+    image : "assets/images/team/hannah.jpg"
+    designation : "Business School Liaison"    
+  
+  - title : "Emma Williamson"
+    image : "assets/images/team/emma.png"
+    designation : "One for the World Co-President"
+
+  - title : "Jiahui Chen"
+    image : "assets/images/team/jiahui.jpg"
+    designation : "One For the World Co-President"
+
+  - title : "Keona Blanks"
+    image : "assets/images/team/keona.jpg"
+    designation : "One For the World Social Chair"
+
+
+#-------------------------------
+# Fellowships and Reading Groups
+
+skills-title: Skills
+skills:
+- {name: Arete Fellowship, color: '#fdb157', value: '90%'}
+- {name: Logo Design, color: '#9473e6', value: '60%'}
+- {name: After Effects, color: '#bdecf6', value: '80%'}
+- {name: Web App, color: '#ffbcaa', value: '70%'}
+
+
+#-------------------------------
+# Experience Section
+
+experience-title: Experience
+experience:
+- {name: Junior UX Designer, icon: 'icon-1.png', date: 'Jan 2007 - Feb 2009', organization: 'WEBEX'}
+- {name: UX & UI Designer, icon: 'icon-2.png', date: 'Mar 2009 - Aug 2014', organization: 'AUGMEDIX'}
+- {name: Senior UI Designer, icon: 'icon-3.png', date: 'Sep 2014 - Present', organization: 'THEMEFISHER'}
+
+
+#-------------------------------
+# Education Section
+
+education-title: Education
+education:
+- {name: Marters in UX Design, date: '2006', organization: 'Masassusets Institute of Technology'}
+- {name: Honours in Fine Arts, date: '2004', organization: 'Harvard University'}
+- {name: Higher Secondary Certificat, date: '2000', organization: 'Cardiff School'}
+- {name: Secondary School Certificate, date: '1998', organization: 'Cardiff School'}
+
+
+#-------------------------------
+# Services Section
+
+services-title: Fellowships & Reading Groups
+services:
+- {
+    name: Arete Fellowship,
+    icon: heart,
+    description: 'Learn the fundamentals of Effective Altruism. Discuss philosophy, cause areas, careers, and more.',
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSfqQ4Vie1lj_cCLsaBLe_zm_AuF6ZA9nMgI0Ao4DpV2gIls9Q/viewform",
+    active: # Add true to select section
+  }
+- {
+    name: Advanced Fellowship,
+    icon: lightbulb,
+    description: 'For those who have completed the Arete Fellowship. Dive deep into discussion of cause prioritization, clear up confusions, and find all new things to be confused about!',
+    link: ,
+    active: true
+  }
+- {
+    name: AI Safety Reading Group,
+    icon: robot,
+    description: 'An introduction to AI Safety. Read about and discuss the dangerous of both narrow and general artificial intelligence and ways we can make it safer.',
+    link: ,
+    active: # Add true to select section
+  }
+
+
+
+#-------------------------------
+# Portfolio (Section and Page)
+
+# Portfolio Home Section
+portfolio-home-items:
+  - image : "assets/images/portfolio/item-1.png"
+    url: "#"
+    
+  - image : "assets/images/portfolio/item-2.png"
+    url: "#"
+    
+  - image : "assets/images/portfolio/item-3.png"
+    url: "#"
+    
+  - image : "assets/images/portfolio/item-4.png"
+    url: "#"
+    
+  - image : "assets/images/portfolio/item-5.png"
+    url: "#"
+
+
+# Portfolio Page
+project-label:
+- title: Ongoing
+  type: ongoing
+- title: Previous
+  type: previous
+- title: "Starting Soon"
+  type: coming soon
+
+project-items:
+  - name: One for the World at Stanford
+    url: https://onefortheworld.su.domains
+    image: assets/images/projects/onefortheworld.png
+    project-type: [type: ongoing]
+  - name: Stanford Existential Risks Initiative
+    url: https://cisac.fsi.stanford.edu/stanford-existential-risks-initiative
+    image: assets/images/projects/stanford-eri.png
+    project-type: [type: ongoing]
+  - name: Collaboration with People for Animal Welfare
+    url: https://onefortheworld.su.domains
+    image: assets/images/projects/people-for-animal-welfare.png
+    project-type: [type: ongoing]
+  - name: Competing in the Genetic Engineering Attribution Challenge
+    url: https://altlabs.tech/geac/
+    image: assets/images/projects/genetic-engineering-attribution-challenge.png
+    project-type: [type: ongoing]
+  - name: Uncommon Sense Rationality
+    url: https://bitbybitcoding.org/uncommonsense.html
+    image: assets/images/projects/bxblogo.png
+    project-type: [type: ongoing]
+  - name: CSET Foretell Technology Forecasting Project
+    image: assets/images/projects/metaculus.png
+    project-type: [type: ongoing]
+
+  - name: Pandemic modelling
+    image: assets/images/projects/pandemic-modelling.jpg
+    project-type: [type: coming soon]
+  - name: Alternative meat
+    image: assets/images/projects/alternative-meat.jpg
+    credit: Alternative meat image <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC BY-SA 4.0</a>, Dllu
+    project-type: [type: coming soon]
+  - name: Bioengineering animals to reduce suffering
+    image: assets/images/projects/bioengineering.jpg
+    credit: Bioengineering image <a href="https://creativecommons.org/licenses/by-sa/2.0/deed.en">CC BY-SA 2.0</a>, astro_matt
+    project-type: [type: coming soon]
+  - name: Building models for the AI Safety Gym
+    image: assets/images/projects/safety-gym-cover.png
+    project-type: [type: coming soon]
+
+  - name: CHAI European AI Whitepaper Review Collaboration
+    image: assets/images/projects/chai.jpg
+    project-type: [type: previous]
+  - name: SERI Summer Research Internship Program
+    image: assets/images/projects/stanford-eri.png
+    project-type: [type: previous]
+  - name: "Student-run Course: Effective Altruism"
+    image: assets/images/projects/effective-altruism.png
+    project-type: [type: previous]
+  - name: AI Safety Reading Group
+    image: assets/images/projects/ai-safety.jpg
+    project-type: [type: previous]
+  - name: Veritas Forum Collaboration - Designing Our Lives When Strangers are Drowning
+    image: assets/images/projects/veritas.jpg
+    credit: Veritas at MIT image <a href="https://creativecommons.org/licenses/by-sa/2.0/deed.en">CC-BY-SA 2.0</a>, The Veritas Forum.
+    project-type: [type: previous]
+
+#-------------------------------
+# Testimonials Section
+
+testimonial-items:
+  - name: "Jesica Gomez"
+    image: "assets/images/testimonial/client-1.png"
+    designation : "CEO, Funder"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    
+  - name: "Jesica Gomez"
+    image: "assets/images/testimonial/client-1.png"
+    designation: "CEO, Funder"
+    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    
+  - name: "Jesica Gomez"
+    image: "assets/images/testimonial/client-1.png"
+    designation: "CEO, Funder"
+    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+
+
+#-------------------------------
+# Speakers Section
+
+client-slider-items:
+  - logo: "assets/images/clients-logo/client-logo-1.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/client-logo-2.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/client-logo-3.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/client-logo-4.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/client-logo-5.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/client-logo-1.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/client-logo-2.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/client-logo-3.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/client-logo-4.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/client-logo-5.png"
+    url: "#"
+
+#-------------------------------
+# Contact Section
+
+contact-title: Get Involved!
+contact-email: steve.fruits@email.com

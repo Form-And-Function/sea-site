@@ -1,0 +1,31 @@
+.page-title-alt {
+  padding: 320px 0 100px;
+}
+
+.border-thick {
+  border: 10px solid;
+}
+
+.drag-lg-top {
+  margin-top: -230px;
+  @include desktop {
+    margin-top: 0;
+  }
+}
+
+.page-title-alt {
+  overflow: hidden;
+  .container {
+    position: relative;
+    z-index: 1;
+  }
+}
+
+#spacescape {
+  left: -25%;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 150vw;
+  min-width: 800px;
+}

@@ -1,0 +1,14 @@
+################ CSS Plugins #####################
+css:
+  - "/assets/plugins/bootstrap/bootstrap.min.css"
+  - "/assets/plugins/themify-icons/themify-icons.css"
+  - "/assets/plugins/slick/slick.css"
+  - "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+
+
+################ JS Plugins ######################
+js:
+  - "/assets/plugins/jQuery/jquery.min.js"
+  - "/assets/plugins/bootstrap/bootstrap.min.js"
+  - "/assets/plugins/shuffle/shuffle.min.js"
+  - "/assets/plugins/slick/slick.min.js"
