@@ -5,6 +5,8 @@
   <meta charset="utf-8">
   <title>Contacts</title>
 
+  <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="Stanford Effective Altruism. How can we do as much good as possible with limited resources?">
@@ -163,7 +165,16 @@
 </section>
 <!-- /page title -->
 
-
+<!-- Calendly inline widget begin -->
+<div id="calendly-div" style="min-width:320px;height:580px;padding:50px;">
+  <script>
+    Calendly.initInlineWidget({
+     url: 'https://calendly.com/stanford-effective-altruism/book-a-chat-with-a-stanford-ea-exec-member',
+     parentElement: document.getElementById('calendly-div')
+    });
+  </script>
+</div>
+<!-- Calendly inline widget end -->
 
   <!-- contact -->
 <section class="section section-on-footer" data-background="/group/ea/assets/images/backgrounds/bg-dots.png" id="contact">
