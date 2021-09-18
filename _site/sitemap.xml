@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/group/ea/2017/08/12/amazon-increase-income-1.5-million-copy/</loc>
-<lastmod>2017-08-12T01:15:20-07:00</lastmod>
-</url>
-<url>
 <loc>http://localhost:4000/group/ea/2018/09/15/amazon-increase-income-1.5-million-copy-4/</loc>
-<lastmod>2018-09-15T03:50:20-07:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/group/ea/2020/04/20/amazon-increase-income-1.5-million-copy-2/</loc>
-<lastmod>2020-04-20T02:05:20-07:00</lastmod>
+<lastmod>2018-09-15T06:50:20-04:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/group/ea/2020/09/14/amazon-increase-income-1.5-million/</loc>
-<lastmod>2020-09-14T00:05:20-07:00</lastmod>
+<lastmod>2020-09-14T03:05:20-04:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/group/ea/2020/09/14/SEA-grown-during-pandemic/</loc>
+<lastmod>2020-09-14T03:05:20-04:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/group/ea/about.html</loc>

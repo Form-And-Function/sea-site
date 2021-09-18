@@ -15,7 +15,7 @@ socials: #name is used for font-awesome icons. fa- is prepended automatically.
 
 #phone: +880 2544 658 256
 #address: 125/A, CA Commercial Area, California, USA
-copyright: Copyright &copy; 2020
+copyright: Copyright &copy; 2021
 mailinglist: https://mailman.stanford.edu/mailman/suoptions/effective-altruism/
 
 menu:
@@ -50,7 +50,7 @@ hero:
   hero-title: Stanford Effective Altruism
   info-buttons:
     - text: Apply to our EA fellowship!
-      link: https://docs.google.com/forms/d/e/1FAIpQLSfqQ4Vie1lj_cCLsaBLe_zm_AuF6ZA9nMgI0Ao4DpV2gIls9Q/viewform?usp=sf_link
+      link: https://airtable.com/shruDiGonLJsMr0sN
 
 #-------------------------------
 # About (Section and Page)
@@ -178,46 +178,52 @@ education:
 services-title: Fellowships & Reading Groups
 services:
 - {
-    name: Arete Fellowship,
+    name: Intro Fellowship,
     icon: heart,
     description: 'Learn the fundamentals of Effective Altruism. Discuss philosophy, cause areas, careers, and more. Figure out how to do as much good as you can with the resources you have.',
-    link: "https://docs.google.com/forms/d/e/1FAIpQLSfqQ4Vie1lj_cCLsaBLe_zm_AuF6ZA9nMgI0Ao4DpV2gIls9Q/viewform",
+    link: "https://airtable.com/shruDiGonLJsMr0sN",
     active: # Add true to select section
   }
 - {
     name: IDEA Fellowship,
     icon: lightbulb,
-    description: 'The <strong>I</strong>n-<strong>D</strong>epth <strong>EA</strong> fellowship is for those who have completed the EA Fellowship. Dive deep into discussion of cause prioritization, clear up confusions, and find all new things to be confused about!',
-    link: https://forms.gle/NHS6U763bqgqYdzE9,
+    description: 'The <strong>I</strong>n-<strong>D</strong>epth <strong>EA</strong> fellowship is for those who have completed the EA Fellowship. Dive deep into discussion of cause prioritization, clear up confusions, and find all new things to be confused about! Applications open in winter.',
+    link: \#,
     active: true
   }
 - {
-    name: AI Safety Reading Group,
-    icon: robot,
-    description: 'An introduction to AI Safety in partnership with UCLA. Read about and discuss the dangerous of both narrow and general artificial intelligence and ways we can make it safer.',
-    link: ,
-    active: # Add true to select section
+    name: Cold Takes Reading Group,
+    icon: book,
+    description: "<a href=\"https://www.cold-takes.com/roadmap-for-the-most-important-century-series/\">Cold Takes</a> summarizes why we might be living in the most important century of all time. It's a blog written by Holden Karnofsky and synthesizes much of Open Philanthropy's research.",
+    link: 'https://docs.google.com/forms/d/e/1FAIpQLSeSnILMVXVBqQOYzVyaW_BPUatbVE1FFm1dEFJz9eiJqQO15g/viewform?usp=sf_link'
   }
-- {
-  name: Effective Environmentalism Reading Group,
-  icon: leaf,
-  description: 'Learn how tail-end warming and instability from climate change could pose existential risks. Then consider and compare and the best ways we can prevent this with your careers, donations, and choices.',
-  link: http://bit.ly/EAEnv21Winter,
-  active: true
-}
-- {
-  name: Existential Risk and Social Sciences Reading Group,
-  icon: book,
-  description: 'Learn how we can use the tools of policy and governance to mitigate existential risks from things like advanced AI, bioweapons, extreme climate change, nuclear war, and totalitarianism.',
-  link: https://forms.gle/y78TxuUykupX2SHB8
-}
-- {
-  name: SHIPs,
-  icon: ship,
-  description: "The <strong>S</strong>tudent-led <strong>H</strong>igh-<strong>I</strong>mpact <strong>P</strong>rojects program is an intercollegiate program that lets students work on an EA project aimed at building career capital and testing their fit for career plans they're considering. Apply by 6/25!",
-  link: https://bitly.com/SHIPsApplication,
-  active: true
-}
+# - {
+#     name: AI Safety Reading Group,
+#     icon: robot,
+#     description: 'An introduction to AI Safety in partnership with UCLA. Read about and discuss the dangerous of both narrow and general artificial intelligence and ways we can make it safer.',
+#     link: ,
+#     active: # Add true to select section
+#   }
+# - {
+#   name: Effective Environmentalism Reading Group,
+#   icon: leaf,
+#   description: 'Learn how tail-end warming and instability from climate change could pose existential risks. Then consider and compare and the best ways we can prevent this with your careers, donations, and choices.',
+#   link: http://bit.ly/EAEnv21Winter,
+#   active: true
+# }
+# - {
+#   name: Existential Risk and Social Sciences Reading Group,
+#   icon: book,
+#   description: 'Learn how we can use the tools of policy and governance to mitigate existential risks from things like advanced AI, bioweapons, extreme climate change, nuclear war, and totalitarianism.',
+#   link: https://forms.gle/y78TxuUykupX2SHB8
+# }
+# - {
+#   name: SHIPs,
+#   icon: ship,
+#   description: "The <strong>S</strong>tudent-led <strong>H</strong>igh-<strong>I</strong>mpact <strong>P</strong>rojects program is an intercollegiate program that lets students work on an EA project aimed at building career capital and testing their fit for career plans they're considering. Apply by 6/25!",
+#   link: https://bitly.com/SHIPsApplication,
+#   active: true
+# }
 
 
 
@@ -260,36 +266,39 @@ project-items:
     url: https://cisac.fsi.stanford.edu/stanford-existential-risks-initiative
     image: assets/images/projects/stanford-eri.png
     project-type: [type: ongoing]
-  - name: Collaboration with People for Animal Welfare
-    url: https://onefortheworld.su.domains
-    image: assets/images/projects/people-for-animal-welfare.png
+  - name: Stanford Alternative Protein Project
+    url: https://www.facebook.com/stanfordaltpro/
+    image: assets/images/projects/alt-pro.png
     project-type: [type: ongoing]
-  - name: Competing in the Genetic Engineering Attribution Challenge
-    url: https://altlabs.tech/geac/
-    image: assets/images/projects/genetic-engineering-attribution-challenge.png
-    project-type: [type: ongoing]
-  - name: Uncommon Sense Rationality
-    url: https://bitbybitcoding.org/uncommonsense.html
+  # - name: Competing in the Genetic Engineering Attribution Challenge
+  #   url: https://altlabs.tech/geac/
+  #   image: assets/images/projects/genetic-engineering-attribution-challenge.png
+  #   project-type: [type: ongoing]
+  - name: Uncommon Sense (High School Outreach)
+    url: https://bitbybitcoding.org/uncommonsenseseminar
     image: assets/images/projects/bxblogo.png
     project-type: [type: ongoing]
   - name: CSET Foretell Technology Forecasting Project
     image: assets/images/projects/metaculus.png
     project-type: [type: ongoing]
+  - name: East Coast Residencies
+    image: mit-table.jpg
+    project-type: [type: previous]
 
-  - name: Pandemic modelling
-    image: assets/images/projects/pandemic-modelling.jpg
-    project-type: [type: coming soon]
-  - name: Alternative meat
-    image: assets/images/projects/alternative-meat.jpg
-    credit: Alternative meat image <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC BY-SA 4.0</a>, Dllu
-    project-type: [type: coming soon]
-  - name: Bioengineering animals to reduce suffering
-    image: assets/images/projects/bioengineering.jpg
-    credit: Bioengineering image <a href="https://creativecommons.org/licenses/by-sa/2.0/deed.en">CC BY-SA 2.0</a>, astro_matt
-    project-type: [type: coming soon]
-  - name: Building models for the AI Safety Gym
-    image: assets/images/projects/safety-gym-cover.png
-    project-type: [type: coming soon]
+  # - name: Pandemic modelling
+  #   image: assets/images/projects/pandemic-modelling.jpg
+  #   project-type: [type: coming soon]
+  # - name: Alternative meat
+  #   image: assets/images/projects/alternative-meat.jpg
+  #   credit: Alternative meat image <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC BY-SA 4.0</a>, Dllu
+  #   project-type: [type: coming soon]
+  # - name: 
+  #   image: assets/images/projects/bioengineering.jpg
+  #   credit: Bioengineering image <a href="https://creativecommons.org/licenses/by-sa/2.0/deed.en">CC BY-SA 2.0</a>, astro_matt
+  #   project-type: [type: coming soon]
+  # - name: Building models for the AI Safety Gym
+  #   image: assets/images/projects/safety-gym-cover.png
+  #   project-type: [type: coming soon]
 
   - name: CHAI European AI Whitepaper Review Collaboration
     image: assets/images/projects/chai.jpg

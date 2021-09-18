@@ -1,3 +1,12 @@
+---
+layout: post
+title:  "Stanford EA has Grown During the Pandemic; Your Group Can Too"
+date:   2020-09-14 10:05:20 +0300
+image:  /assets/images/blog/post-3.jpg
+author: Kuhan Jeyapragasan
+tags:   involvement
+---
+
 ([Crossposted from the Effective Altruism Forum.](https://forum.effectivealtruism.org/posts/DLtE5KHqTuYdFDqoc/stanford-ea-has-grown-during-the-pandemic-your-group-can-too))
 
 Many EA group organizers I’ve spoken to at the EA student summit, EAGx Asia-Pacific, and elsewhere have talked about the pandemic slowing down their groups’ momentum, and in some cases causing groups to stop operating altogether. This is very understandable. The pandemic has uprooted many of our lives. Zoom fatigue means more time on a screen is the last thing people would want for fun. And many types of meetups that EA groups have become accustomed to are currently dangerous to run. That being said, Stanford EA has grown and become more active (around twice as much weekly programming as pre-pandemic, and around twice as many active organizers) over the course of the pandemic. I thought I’d share what has worked well for us, in hopes of sharing ideas with other organizers, generating conversation on how to take advantage of this unique situation we’re in, and sharing ideas, resources, and collaboration opportunities. 
