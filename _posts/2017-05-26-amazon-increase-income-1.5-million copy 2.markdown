@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: post
 title:  Resolving Objections to Utilitarianism
 date:   2020-04-20 12:05:20 +0300
@@ -19,4 +19,4 @@ On the other hand, you could compare world A with world B' where the really happ
 
 You might also just choose the world we live in because making big changes is risky and comes with uncertainty, and utilitarianism also takes this into account! That intuition would be encapsulated in the "expected" part of the "expected utility" calculation. When you are uncertain about the value of a possible world, the utility gets down-weighted with your uncertainty.
 
-I still haven't heard objections to utilitarianism that aren't a result of improperly evaluating the expected utility of a choice over all of time and space or just bad choice of utility function. I guess if you intrinsically value following certain moral rules or having certain virtues instead of valuing certain physical states of the universe (like one where there's no conflict, disease, poverty, violence, etc and lots of human welfare), then maybe utilitarianism isn't so useful to you. I guess that would correspond to your utility function being maximized if and only if you follow all the rules and/or are virtuous.
+I still haven't heard objections to utilitarianism that aren't a result of improperly evaluating the expected utility of a choice over all of time and space or just bad choice of utility function. I guess if you intrinsically value following certain moral rules or having certain virtues instead of valuing certain physical states of the universe (like one where there's no conflict, disease, poverty, violence, etc and lots of human welfare), then maybe utilitarianism isn't so useful to you. I guess that would correspond to your utility function being maximized if and only if you follow all the rules and/or are virtuous. -->

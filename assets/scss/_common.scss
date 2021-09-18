@@ -271,6 +271,14 @@ textarea.form-control{
   &-footer{
     border: 0;
   }
+  .link-unstyled, .link-unstyled:link, .link-unstyled:hover {
+    color: inherit;
+    text-decoration: inherit;
+  }
+  strong {
+    font-size: 120%;
+    color: $highlight-color;
+  }
 }
 /* /card */
 

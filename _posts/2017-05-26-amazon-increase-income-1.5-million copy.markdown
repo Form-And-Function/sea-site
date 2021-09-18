@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: post
 title:  Organizing Thoughts
 date:   2017-08-12 11:15:20 +0300
@@ -13,4 +13,4 @@ But as I’ve noticed my thoughts more, I created more and more docs, such as �
 
 This has been incredibly useful, mostly because I’m only caching the more useful thoughts (with some exceptions of course 😃). Now every time I think of one of these things, and I think of something cool or I realize I need to do something, I can easily keep track of it. 
 
-Though I’m embarrassed to say that I am only JUST NOW making a doc for “Career thoughts” when I think about it so often.
+Though I’m embarrassed to say that I am only JUST NOW making a doc for “Career thoughts” when I think about it so often. -->

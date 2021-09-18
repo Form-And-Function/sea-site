@@ -19,10 +19,11 @@ copyright: Copyright &copy; 2020
 mailinglist: https://mailman.stanford.edu/mailman/suoptions/effective-altruism/
 
 menu:
-- {name: About, link: '/about/'}
-- {name: Updates, link: '/updates/'}
-- {name: Projects, link: '/projects/'}
-- {name: Contact, link: '/contact/'}
+- {name: Home, link: '/'}
+- {name: About, link: '/about'}
+- {name: Updates, link: '/updates'}
+- {name: Projects, link: '/projects'}
+- {name: Contact, link: '/contact'}
 
 
 #-------------------------------
@@ -48,7 +49,7 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 hero:
   hero-title: Stanford Effective Altruism
   info-buttons:
-    - text: Apply to out Arete fellowship!
+    - text: Apply to our EA fellowship!
       link: https://docs.google.com/forms/d/e/1FAIpQLSfqQ4Vie1lj_cCLsaBLe_zm_AuF6ZA9nMgI0Ao4DpV2gIls9Q/viewform?usp=sf_link
 
 #-------------------------------
@@ -58,7 +59,7 @@ hero:
 blurb:
   'Effective Altruism is a growing social movement based on the idea that good intentions alone, while admirable, are not enough to have an impact. Instead, we are committed to combining compassion with reasoning and evidence so that our choices do the most good possible. With this broad approach, we tackle some of the most challenging questions of our era: what global problems should we prioritize, what strategies have the best chances of solving them, and how can we best use our careers, donations, resources and lifestyles to contribute to these?'
 
-blurb-btn-link: '/about'
+blurb-btn-link: 'about'
 blurb-btn-name: learn more
 
 
@@ -90,9 +91,9 @@ team:
     image : "assets/images/team/felipe.jpg"
     designation : "Co-president"
     
-  - title : "Mauricio Baker"
-    image : "assets/images/team/mauricio.jpg"
-    designation : "VP of Community"
+  # - title : "Mauricio Baker"
+  #   image : "assets/images/team/mauricio.jpg"
+  #   designation : "VP of Community"
   
   - title : "Jack Ryan"
     image : "assets/images/team/jack.jpg"
@@ -144,7 +145,7 @@ team:
 
 skills-title: Skills
 skills:
-- {name: Arete Fellowship, color: '#fdb157', value: '90%'}
+- {name: EA Fellowship, color: '#fdb157', value: '90%'}
 - {name: Logo Design, color: '#9473e6', value: '60%'}
 - {name: After Effects, color: '#bdecf6', value: '80%'}
 - {name: Web App, color: '#ffbcaa', value: '70%'}
@@ -179,24 +180,44 @@ services:
 - {
     name: Arete Fellowship,
     icon: heart,
-    description: 'Learn the fundamentals of Effective Altruism. Discuss philosophy, cause areas, careers, and more.',
+    description: 'Learn the fundamentals of Effective Altruism. Discuss philosophy, cause areas, careers, and more. Figure out how to do as much good as you can with the resources you have.',
     link: "https://docs.google.com/forms/d/e/1FAIpQLSfqQ4Vie1lj_cCLsaBLe_zm_AuF6ZA9nMgI0Ao4DpV2gIls9Q/viewform",
     active: # Add true to select section
   }
 - {
-    name: Advanced Fellowship,
+    name: IDEA Fellowship,
     icon: lightbulb,
-    description: 'For those who have completed the Arete Fellowship. Dive deep into discussion of cause prioritization, clear up confusions, and find all new things to be confused about!',
-    link: ,
+    description: 'The <strong>I</strong>n-<strong>D</strong>epth <strong>EA</strong> fellowship is for those who have completed the EA Fellowship. Dive deep into discussion of cause prioritization, clear up confusions, and find all new things to be confused about!',
+    link: https://forms.gle/NHS6U763bqgqYdzE9,
     active: true
   }
 - {
     name: AI Safety Reading Group,
     icon: robot,
-    description: 'An introduction to AI Safety. Read about and discuss the dangerous of both narrow and general artificial intelligence and ways we can make it safer.',
+    description: 'An introduction to AI Safety in partnership with UCLA. Read about and discuss the dangerous of both narrow and general artificial intelligence and ways we can make it safer.',
     link: ,
     active: # Add true to select section
   }
+- {
+  name: Effective Environmentalism Reading Group,
+  icon: leaf,
+  description: 'Learn how tail-end warming and instability from climate change could pose existential risks. Then consider and compare and the best ways we can prevent this with your careers, donations, and choices.',
+  link: http://bit.ly/EAEnv21Winter,
+  active: true
+}
+- {
+  name: Existential Risk and Social Sciences Reading Group,
+  icon: book,
+  description: 'Learn how we can use the tools of policy and governance to mitigate existential risks from things like advanced AI, bioweapons, extreme climate change, nuclear war, and totalitarianism.',
+  link: https://forms.gle/y78TxuUykupX2SHB8
+}
+- {
+  name: SHIPs,
+  icon: ship,
+  description: "The <strong>S</strong>tudent-led <strong>H</strong>igh-<strong>I</strong>mpact <strong>P</strong>rojects program is an intercollegiate program that lets students work on an EA project aimed at building career capital and testing their fit for career plans they're considering. Apply by 6/25!",
+  link: https://bitly.com/SHIPsApplication,
+  active: true
+}
 
 
 
